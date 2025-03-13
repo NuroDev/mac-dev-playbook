@@ -1,0 +1,182 @@
+---
+configure_dotfiles: true
+configure_terminal: true
+configure_osx: true
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: true
+dockitems_remove:
+  - "App Store"
+  - Contacts
+  - Facetime
+  - Freeform
+  - Keynote
+  - Launchpad
+  - Mail
+  - Maps
+  - Messages
+  - Music
+  - News
+  - Notes
+  - Numbers
+  - Pages
+  - Photos
+  - Podcasts
+  - Reminders
+  - Safari
+  - System Preferences
+  - TV
+dockitems_persist:
+  - name: "Arc"
+    path: "/Applications/Arc.app/"
+    pos: 2
+  - name: "Calendar"
+    path: "/Applications/Calendar.app/"
+    pos: 3
+  - name: "Spotify"
+    path: "/Applications/Spotify.app/"
+    pos: 4
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 5
+  - name: "iTerm"
+    path: "/Applications/iTerm.app/"
+    pos: 6
+  - name: "Tower"
+    path: "/Applications/Tower.app/"
+    pos: 7
+  - name: "Discord"
+    path: "/Applications/Discord.app/"
+    pos: 8
+
+configure_sudoers: false
+sudoers_custom_config: ""
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: https://github.com/nurodev/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/dotfiles
+dotfiles_files:
+  - .aliases
+  - .fet
+  - .functions
+  - .gitconfig
+  - .gitignore
+  - .nirc
+  - .osx
+  - .zshrc
+
+homebrew_installed_packages:
+  - act # Run your GitHub Actions locally.
+  # - ansible # Installed via Pip.
+  - ansible-lint # Linting for Ansible.
+  - bat # A cat(1) clone with wings.
+  - bun # JavaScript/TypeScript runtime.
+  - croc # Securely send things from one computer to another
+  - deno # JavaScript/TypeScript runtime.
+  - dog # Command-line DNS client.
+  - duckdb # Embeddable SQL OLAP Database
+  - duf # Disk Usage/Free Utility.
+  - dust # A more intuitive version of du in rust
+  - ffmpeg # Play, record, convert, and stream audio and video.
+  - fnm # Node.js version manager.
+  - gh # GitHub CLI.
+  - gping # Ping, but with a graph.
+  - hexyl # A command-line hex viewer.
+  - htop # Improved top (interactive process viewer).
+  - httpstat # curl statistics made simple.
+  - hyperfine # Command-line benchmarking tool.
+  - imagemagick # Tools and libraries to manipulate images
+  - iperf # Network bandwidth measurement tool.
+  - jq # Lightweight and flexible command-line JSON processor.
+  - lporg # Organize Your macOS Launchpad Apps
+  - lsd # The next gen ls command.
+  - m-cli # Swiss Army Knife for macOS.
+  - mas # Mac App Store command-line interface.
+  - nano # Free (GNU) replacement for the Pico text editor.
+  - nmap # Network exploration tool and security scanner.
+  - nushell # A new type of shell.
+  - oha # HTTP load generator, inspired by rakyll/hey with tui animation
+  - openssl # Cryptography and SSL/TLS Toolkit
+  - opentofu # Drop-in replacement for Terraform.
+  - rustup # Rust toolchain installer.
+  - sl # 🚂
+  - sqlite # Command-line interface for SQLite
+  - ssh-copy-id # Add a public key to a remote machine's authorized_keys file.
+  - starship # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+  - terraform # Infrastructure as Code.
+  - terramate # Managing Terraform stacks with change detections & code generations
+  - tokei # A program that displays statistics about your code.
+  - trash # CLI tool that moves files or folders to the trash.
+  - tree # Display directories as trees (with optional color/HTML output).
+  - wget # Internet file retriever.
+  - yamllint # A linter for YAML files.
+  - yt-dlp # Feature-rich command-line audio/video downloader
+  - zsh # UNIX shell
+
+homebrew_taps: []
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password # Password manager
+  - arc # Chromium based browser
+  - brooklyn # Screen saver based on animations presented during Apple Special Event Brooklyn
+  - cleanshot # Screen capturing tool
+  - cyberduck # Server and cloud storage browser
+  - dbngin # Database version management tool
+  - discord # Voice and text chat software
+  - font-fira-code # Fira code font
+  - font-jetbrains-mono # JetBrains Mono font
+  - font-montserrat # Montserrat font
+  - font-open-sans # Open Sans font
+  - font-quicksand # Quicksand font
+  - github # GitHub Desktop
+  - google-cloud-sdk # Tools to manage resources and applications hosted on Google Cloud
+  - handbrake # Open-source video transcoder
+  - hot # Menu bar application that displays the CPU speed limit due to thermal issues
+  - iina # Free and open-source media player
+  - iterm2 # Terminal emulator as alternative to Apple's Terminal app
+  - monitorcontrol # Tool to control external monitor brightness & volume
+  - nucleo # Icon manager and library
+  - orbstack # Replacement for Docker Desktop
+  - qlimagesize # Display image info and preview unsupported formats in QuickLook
+  - qlmarkdown # Quick Look generator for Markdown files
+  - quicklook-json # Quick Look plugin for JSON files
+  - raycast # Control your tools with a few keystrokes
+  - rocket # Emoji picker optimised for blind people
+  - spotify # Music streaming service
+  - utm # Virtual machines UI using QEMU
+  - visual-studio-code # Open-source code editor
+  - yaak # REST, GraphQL and gRPC client
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+# mas_email: ""
+# mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+gem_packages: []
+npm_packages:
+  - name: "@antfu/ni"
+  - name: corepack
+  - name: jsr
+  - name: lock-cli
+  - name: npm
+  - name: pnpm
+  - name: tsx
+pip_packages:
+  - name: ansible
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: false
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
