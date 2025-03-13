@@ -24,7 +24,7 @@ dockitems_remove:
   - Podcasts
   - Reminders
   - Safari
-  - System Preferences
+  - "System Preferences"
   - TV
 dockitems_persist:
   - name: "Arc"
