@@ -23,6 +23,7 @@ dockitems_remove:
   - Photos
   - Podcasts
   - Reminders
+  - Safari
   - TV
 dockitems_persist:
   - name: "Arc"
