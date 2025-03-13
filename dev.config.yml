@@ -77,7 +77,6 @@ homebrew_installed_packages:
   - bun # JavaScript/TypeScript runtime.
   - croc # Securely send things from one computer to another
   - deno # JavaScript/TypeScript runtime.
-  - dog # Command-line DNS client.
   - duckdb # Embeddable SQL OLAP Database
   - duf # Disk Usage/Free Utility.
   - dust # A more intuitive version of du in rust
