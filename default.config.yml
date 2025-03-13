@@ -8,7 +8,7 @@ configure_dock: true
 dockitems_remove:
   - "App Store"
   - Contacts
-  - Facetime
+  - FaceTime
   - Freeform
   - Keynote
   - Launchpad
