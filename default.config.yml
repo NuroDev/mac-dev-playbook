@@ -63,7 +63,6 @@ homebrew_installed_packages:
   - ansible-lint # Linting for Ansible.
   - bat # A cat(1) clone with wings.
   - croc # Securely send things from one computer to another
-  - dog # Command-line DNS client.
   - duf # Disk Usage/Free Utility.
   - dust # A more intuitive version of du in rust
   - ffmpeg # Play, record, convert, and stream audio and video.
