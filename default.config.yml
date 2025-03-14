@@ -133,3 +133,6 @@ configure_sublime: false
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
+
+# Set to 'true' to install & configure Oh My Zsh.
+configure_oh_my_zsh: true
