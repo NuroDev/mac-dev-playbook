@@ -27,14 +27,11 @@ dockitems_remove:
   - "System Settings"
   - TV
 dockitems_persist:
-  - name: "Finder"
-    path: "/System/Library/CoreServices/Finder.app/"
-    pos: 1
   - name: "Launchpad"
-    path: "/Applications/Arc.app/"
+    path: "/Applications/Launchpad.app/"
     pos: 2
-  - name: "Arc"
-    path: "/Applications/Arc.app/"
+  - name: "Safari"
+    path: "/Applications/Safari.app/"
     pos: 3
   - name: "Calendar"
     path: "/Applications/Calendar.app/"
