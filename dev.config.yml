@@ -83,6 +83,7 @@ homebrew_installed_packages:
   - dust # A more intuitive version of du in rust
   - ffmpeg # Play, record, convert, and stream audio and video.
   - fnm # Node.js version manager.
+  - fzf # Command-line fuzzy finder written in Go
   - gh # GitHub CLI.
   - gping # Ping, but with a graph.
   - hexyl # A command-line hex viewer.

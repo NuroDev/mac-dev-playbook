@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - duf # Disk Usage/Free Utility.
   - dust # A more intuitive version of du in rust
   - ffmpeg # Play, record, convert, and stream audio and video.
+  - fzf # Command-line fuzzy finder written in Go
   - gping # Ping, but with a graph.
   - htop # Improved top (interactive process viewer).
   - httpstat # curl statistics made simple.
