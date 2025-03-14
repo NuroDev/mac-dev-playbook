@@ -120,6 +120,10 @@ homebrew_installed_packages:
   - yamllint # A linter for YAML files.
   - yt-dlp # Feature-rich command-line audio/video downloader
   - zsh # UNIX shell
+  - zsh-autosuggestions # Fish-like fast/unobtrusive autosuggestions for zsh
+  - zsh-completions # Additional completion definitions for zsh
+  - zsh-history-substring-search # Zsh port of Fish shell's history search
+  - zsh-syntax-highlighting # Fish shell like syntax highlighting for zsh
 
 homebrew_taps:
   - blacktop/tap # Required for `lporg`
@@ -189,8 +193,4 @@ post_provision_tasks: []
 configure_oh_my_zsh: true
 oh_my_zsh_update_mode: reminder
 oh_my_zsh_write_zshrc: false
-oh_my_zsh_plugins:
-  - zsh-autosuggestions
-  - zsh-completions
-  - zsh-history-substring-search
-  - zsh-syntax-highlighting
+oh_my_zsh_plugins: []
