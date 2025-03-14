@@ -137,6 +137,7 @@ post_provision_tasks: []
 # Set to 'true' to install & configure Oh My Zsh.
 configure_oh_my_zsh: true
 oh_my_zsh_update_mode: reminder
+oh_my_zsh_write_zshrc: false
 oh_my_zsh_plugins:
   - zsh-autosuggestions
   - zsh-completions
