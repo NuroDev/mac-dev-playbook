@@ -69,6 +69,7 @@ dotfiles_files:
   - .nirc
   - .osx
   - .zshrc
+  - dev.zshrc
 
 homebrew_installed_packages:
   - act # Run your GitHub Actions locally.
