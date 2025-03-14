@@ -104,6 +104,7 @@ homebrew_installed_packages:
   - opentofu # Drop-in replacement for Terraform.
   - rustup # Rust toolchain installer.
   - sl # 🚂
+  - spaceship # Zsh prompt for Astronauts
   - sqlite # Command-line interface for SQLite
   - ssh-copy-id # Add a public key to a remote machine's authorized_keys file.
   - starship # The minimal, blazing-fast, and infinitely customizable prompt for any shell!

@@ -90,6 +90,7 @@ homebrew_installed_packages:
   - nushell # A new type of shell.
   - openssl # Cryptography and SSL/TLS Toolkit
   - sl # 🚂
+  - spaceship # Zsh prompt for Astronauts
   - ssh-copy-id # Add a public key to a remote machine's authorized_keys file.
   - starship # The minimal, blazing-fast, and infinitely customizable prompt for any shell!
   - trash # CLI tool that moves files or folders to the trash.
