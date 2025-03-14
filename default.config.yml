@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - duf # Disk Usage/Free Utility.
   - dust # A more intuitive version of du in rust
   - ffmpeg # Play, record, convert, and stream audio and video.
+  - fx # Terminal JSON viewer
   - fzf # Command-line fuzzy finder written in Go
   - gping # Ping, but with a graph.
   - htop # Improved top (interactive process viewer).
@@ -90,6 +91,7 @@ homebrew_installed_packages:
   - nmap # Network exploration tool and security scanner.
   - nushell # A new type of shell.
   - openssl # Cryptography and SSL/TLS Toolkit
+  - procs # Modern replacement for ps written in Rust
   - sl # 🚂
   - spaceship # Zsh prompt for Astronauts
   - ssh-copy-id # Add a public key to a remote machine's authorized_keys file.

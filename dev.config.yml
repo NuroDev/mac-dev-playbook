@@ -84,6 +84,7 @@ homebrew_installed_packages:
   - dust # A more intuitive version of du in rust
   - ffmpeg # Play, record, convert, and stream audio and video.
   - fnm # Node.js version manager.
+  - fx # Terminal JSON viewer
   - fzf # Command-line fuzzy finder written in Go
   - gh # GitHub CLI.
   - gping # Ping, but with a graph.
@@ -104,6 +105,7 @@ homebrew_installed_packages:
   - oha # HTTP load generator, inspired by rakyll/hey with tui animation
   - openssl # Cryptography and SSL/TLS Toolkit
   - opentofu # Drop-in replacement for Terraform.
+  - procs # Modern replacement for ps written in Rust
   - rustup # Rust toolchain installer.
   - sl # 🚂
   - spaceship # Zsh prompt for Astronauts
