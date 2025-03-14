@@ -119,8 +119,7 @@ osx_script: "~/.osx --no-restart"
 # installed, eg. through homebrew.
 composer_packages: []
 gem_packages: []
-npm_packages:
-  - name: lock-cli
+npm_packages: []
 pip_packages:
   - name: ansible
 
