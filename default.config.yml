@@ -91,7 +91,6 @@ homebrew_installed_packages:
   - nmap # Network exploration tool and security scanner.
   - nushell # A new type of shell.
   - openssl # Cryptography and SSL/TLS Toolkit
-  - procs # Modern replacement for ps written in Rust
   - sl # 🚂
   - spaceship # Zsh prompt for Astronauts
   - ssh-copy-id # Add a public key to a remote machine's authorized_keys file.
