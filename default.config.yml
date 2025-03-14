@@ -27,18 +27,24 @@ dockitems_remove:
   - "System Settings"
   - TV
 dockitems_persist:
-  - name: "Arc"
+  - name: "Finder"
+    path: "/Applications/Finder.app/"
+    pos: 1
+  - name: "Launchpad"
     path: "/Applications/Arc.app/"
     pos: 2
+  - name: "Arc"
+    path: "/Applications/Arc.app/"
+    pos: 3
   - name: "Calendar"
     path: "/Applications/Calendar.app/"
-    pos: 3
+    pos: 4
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app/"
-    pos: 4
+    pos: 5
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
-    pos: 5
+    pos: 6
 
 configure_sudoers: false
 sudoers_custom_config: ""
