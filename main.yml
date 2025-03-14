@@ -2,6 +2,8 @@
 - name: Configure host.
   hosts: all
 
+  vars:
+    current_user: "{{ lookup('env', 'USER') }}"
   vars_files:
     - default.config.yml
 
@@ -27,7 +29,7 @@
       tags: ["dock"]
     - role: gantsign.oh-my-zsh
       users:
-        - username: $USER
+        - username: "{{ current_user }}"
       when: configure_oh_my_zsh
       tags: ["oh-my-zsh"]
 
