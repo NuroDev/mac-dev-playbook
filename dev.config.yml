@@ -72,7 +72,7 @@ dotfiles_files:
 
 homebrew_installed_packages:
   - act # Run your GitHub Actions locally.
-  # - ansible # Installed via Pip.
+  - ansible # Automate deployment, configuration, and upgrading
   - ansible-lint # Linting for Ansible.
   - bat # A cat(1) clone with wings.
   - bun # JavaScript/TypeScript runtime.
@@ -173,8 +173,7 @@ npm_packages:
   - name: npm
   - name: pnpm
   - name: tsx
-pip_packages:
-  - name: ansible
+pip_packages: []
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false

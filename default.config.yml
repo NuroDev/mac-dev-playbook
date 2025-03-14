@@ -62,7 +62,7 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  - ansible # Automate deployment, configuration, and upgrading
   - ansible-lint # Linting for Ansible.
   - bat # A cat(1) clone with wings.
   - croc # Securely send things from one computer to another
@@ -120,8 +120,7 @@ osx_script: "~/.osx --no-restart"
 composer_packages: []
 gem_packages: []
 npm_packages: []
-pip_packages:
-  - name: ansible
+pip_packages: []
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
