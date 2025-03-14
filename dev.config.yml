@@ -69,6 +69,7 @@ dotfiles_files:
   - .nirc
   - .osx
   - .zshrc
+  - dev.aliases
   - dev.zshrc
 
 homebrew_installed_packages:
