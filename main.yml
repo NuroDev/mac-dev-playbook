@@ -26,6 +26,8 @@
       when: configure_dock
       tags: ["dock"]
     - role: gantsign.oh-my-zsh
+      users:
+        - username: $USER
       when: configure_oh_my_zsh
       tags: ["oh-my-zsh"]
 
