@@ -138,6 +138,7 @@ homebrew_cask_apps:
   - cyberduck # Server and cloud storage browser
   - dbngin # Database version management tool
   - discord # Voice and text chat software
+  - domzilla-caffeine # Utility that prevents the system from going to sleep
   - font-fira-code # Fira code font
   - font-jetbrains-mono # JetBrains Mono font
   - font-montserrat # Montserrat font

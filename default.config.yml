@@ -109,6 +109,7 @@ homebrew_cask_apps:
   - 1password # Password manager
   - arc # Chromium based browser
   - brooklyn # Screen saver based on animations presented during Apple Special Event Brooklyn
+  - domzilla-caffeine # Utility that prevents the system from going to sleep
   - handbrake # Open-source video transcoder
   - hot # Menu bar application that displays the CPU speed limit due to thermal issues
   - iterm2 # Terminal emulator as alternative to Apple's Terminal app
