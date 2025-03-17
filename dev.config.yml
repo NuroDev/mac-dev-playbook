@@ -164,7 +164,13 @@ homebrew_cask_apps:
   - yaak # REST, GraphQL and gRPC client
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - id: 6446206067
+    name: "Klack"
+  - id: 1451685025
+    name: "Wireguard"
+  - id: 497799835
+    name: "Xcode"
 # mas_email: ""
 # mas_password: ""
 
