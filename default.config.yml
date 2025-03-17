@@ -3,6 +3,10 @@ configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
 
+# Change the network hostname.
+# Note: This requires a restart to take effect.
+# hostname: macbook.local
+
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove:

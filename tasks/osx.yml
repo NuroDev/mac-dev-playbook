@@ -3,3 +3,9 @@
 - name: Run .osx dotfiles.
   command: "{{ osx_script }}"
   changed_when: false
+
+- name: Configure Hostname
+  ansible.builtin.hostname:
+    name: "{{ hostname }}"
+    use: "macos"
+  when: hostname is defined
