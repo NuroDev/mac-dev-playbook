@@ -83,8 +83,8 @@ dockitems_remove:
   - Launchpad
   - TV
 dockitems_persist:
-  - name: "Sublime Text"
-    path: "/Applications/Sublime Text.app/"
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app/"
     pos: 5
 ```
 

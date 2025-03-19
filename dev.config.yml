@@ -195,9 +195,6 @@ npm_packages:
   - name: tsx
 pip_packages: []
 
-# Set to 'true' to configure Sublime Text.
-configure_sublime: false
-
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
 
