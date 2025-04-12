@@ -9,3 +9,15 @@
     name: "{{ hostname }}"
     use: "macos"
   when: hostname is defined
+
+- name: Add symbolic links
+  loop: "{{ symlinks }}"
+  when: configure_symlinks
+  ansible.builtin.file:
+    dest: "{{ item.dest }}"
+    force: "{{ item.force | default(false) }}"
+    group: "{{ item.group | default(omit) }}"
+    mode: "{{ item.mode | default(omit) }}"
+    owner: "{{ item.owner | default(omit) }}"
+    src: "{{ item.src }}"
+    state: link
