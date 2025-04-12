@@ -6,4 +6,5 @@
     clone: true
     dest: "{{ item.path }}"
     repo: "{{ item.url }}"
-    update: true
+    update: "{{ item.update | default(yes) }}"
+    version: "{{ item.version | default('main') }}"
