@@ -40,6 +40,10 @@
       when: configure_terminal
       tags: ["terminal"]
 
+    - import_tasks: tasks/git.yml
+      when: configure_git
+      tags: ["git"]
+
     - import_tasks: tasks/osx.yml
       when: configure_osx
       tags: ["osx"]

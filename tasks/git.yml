@@ -1,0 +1,9 @@
+---
+- name: Clone git repositories.
+  loop: "{{ git_repos }}"
+  when: configure_git_repos
+  ansible.builtin.git:
+    clone: true
+    dest: "{{ item.path }}"
+    repo: "{{ item.url }}"
+    update: true
