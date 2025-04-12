@@ -8,7 +8,7 @@
   ansible.builtin.hostname:
     name: "{{ hostname }}"
     use: "macos"
-  when: hostname is defined
+  when: configure_hostname
 
 - name: Add symbolic links
   loop: "{{ symlinks }}"
