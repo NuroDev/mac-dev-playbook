@@ -5,10 +5,11 @@
   changed_when: false
 
 - name: Configure Hostname
+  when: configure_hostname
+  become: true
   ansible.builtin.hostname:
     name: "{{ hostname }}"
     use: "macos"
-  when: configure_hostname
 
 - name: Add symbolic links
   loop: "{{ symlinks }}"
