@@ -1,0 +1,20 @@
+---
+- name: Create Beszel directories
+  ansible.builtin.file:
+    mode: "0755"
+    path: "{{ item }}"
+    state: directory
+  loop:
+    - "~/.config/beszel"
+    - "~/.cache/beszel"
+
+- name: Create Beszel agent environment file
+  ansible.builtin.copy:
+    content: 'KEY="ssh-ed25519 1234567890"'
+    dest: "~/.config/beszel/beszel-agent.env"
+    mode: "0600"
+
+- name: Start Beszel agent service
+  community.general.homebrew_services:
+    name: beszel-agent
+    state: started

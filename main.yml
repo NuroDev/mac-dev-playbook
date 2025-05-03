@@ -51,6 +51,9 @@
     - import_tasks: tasks/extra-packages.yml
       tags: ["extra-packages"]
 
+    - import_tasks: tasks/beszel.yml
+      tags: ["beszel"]
+
     - name: Run post-provision task files in a block.
       tags: ["post"]
       block:
