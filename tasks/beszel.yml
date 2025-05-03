@@ -17,4 +17,4 @@
 - name: Start Beszel agent service
   community.general.homebrew_services:
     name: beszel-agent
-    state: started
+    state: present
