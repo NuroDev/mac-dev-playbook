@@ -12,9 +12,10 @@
   ansible.builtin.copy:
     content: 'KEY="ssh-ed25519 1234567890"'
     dest: "~/.config/beszel/beszel-agent.env"
+    force: false
     mode: "0600"
 
 - name: Start Beszel agent service
   community.general.homebrew_services:
-    name: beszel-agent
+    name: henrygd/beszel/beszel-agent
     state: present
